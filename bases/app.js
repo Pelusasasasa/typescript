@@ -1,9 +1,6 @@
-const msg = 'Hola Mundo';
-const hero = {
-    name: 'IronMan',
-    age: 45
-};
-hero.age = 50;
-console.log(hero);
+(() => {
+    const a = 10;
+    console.log(a);
+})();
 export {};
 //# sourceMappingURL=app.js.map
