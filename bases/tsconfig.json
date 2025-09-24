@@ -7,7 +7,7 @@
 
     // Environment Settings
     // See also https://aka.ms/tsconfig/module
-    "module": "AMD",
+    "module": "amd",
     "target": "es6",
     "types": [],
     "outFile": "./main.js",
@@ -42,5 +42,9 @@
   },
   "exclude": [
     "node_modules2"
+  ],
+  "include": [
+    "ES6"
   ]
+  
 }
