@@ -1,0 +1,20 @@
+declare module "app" { }
+declare module "apps/app" { }
+declare module "funciones/args-default" { }
+declare module "funciones/args-required" { }
+declare module "funciones/args.optional" { }
+declare module "funciones/funciones" { }
+declare module "objetos/objects" { }
+declare module "objetos/type" { }
+declare module "objetos/union-types" { }
+declare module "tipos/any" { }
+declare module "tipos/arrays" { }
+declare module "tipos/booleans" { }
+declare module "tipos/enums" { }
+declare module "tipos/never" { }
+declare module "tipos/null-undefined" { }
+declare module "tipos/numbers" { }
+declare module "tipos/strings" { }
+declare module "tipos/tupls" { }
+declare module "tipos/void" { }
+//# sourceMappingURL=main.d.ts.map
