@@ -25,6 +25,36 @@ define("desestructuracion", ["require", "exports"], function (require, exports) 
             (console.log(ironman, resto));
         };
         printAvenger(avengers);
+        const avengersARr = ['Cap. America', 'Iroman', 'Hulk'];
+        const [capi, ironman,] = avengersARr;
+        console.log({ capi, ironman });
+        const numero = 10;
+        if (numero > 10) {
+            const numero = 10;
+        }
+    });
+});
+define("for-of", ["require", "exports"], function (require, exports) {
+    "use strict";
+    Object.defineProperty(exports, "__esModule", { value: true });
+    (() => {
+        const ironman = {
+            name: 'Ironman',
+            weapon: 'ArmorSuit'
+        };
+        const captainAmerica = {
+            name: 'Capitan America',
+            weapon: 'Shield'
+        };
+        const thor = {
+            name: 'Thor',
+            weapon: 'Mjolnir'
+        };
+        const avengers = [ironman, thor, captainAmerica];
+        for (const avenger of avengers) {
+            console.log(avenger.name, avenger.weapon);
+        }
+        ;
     });
 });
 define("let-var", ["require", "exports"], function (require, exports) {

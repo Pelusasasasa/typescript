@@ -21,4 +21,14 @@
     )}
 
     printAvenger(avengers)
+
+
+    const avengersARr: string[] = ['Cap. America', 'Iroman', 'Hulk'];
+    const [capi, ironman, ] = avengersARr;
+    console.log({capi, ironman});
+
+    const numero:number = 10;
+    if(numero > 10){
+        const numero: number = 10;
+    }
 })
