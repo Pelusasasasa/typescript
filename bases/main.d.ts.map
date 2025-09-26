@@ -1,1 +1,1 @@
-{"version":3,"file":"main.d.ts","sourceRoot":"","sources":["ES6/desestructuracion.ts","ES6/for-of.ts","ES6/let-var.ts"],"names":[],"mappings":""}
+{"version":3,"file":"main.d.ts","sourceRoot":"","sources":["classes/abstract.ts","classes/basica.ts","classes/extends.ts","classes/private-constructor.ts"],"names":[],"mappings":""}
