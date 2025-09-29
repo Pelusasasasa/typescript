@@ -1,8 +1,7 @@
-import { Hero } from "./classes/Hero";
-
-const ironMan = new Hero('Ironman', 1, 55);
-
-console.log(ironMan.power);
+import { getPokemon } from "./generics/getPokemon";
 
 
 
+getPokemon(5)
+    .then( res => console.log(res.name))
+    .catch( err => console.log(err))
